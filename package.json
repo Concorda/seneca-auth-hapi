@@ -1,0 +1,46 @@
+{
+  "name": "seneca-auth-hapi",
+  "version": "0.1.0",
+  "description": "User authentication plugin for the seneca module. (Hapi & Bell)",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo NO TEST YET",
+    "lint": "standard"
+  },
+  "keywords": [
+    "seneca",
+    "auth",
+    "plugin",
+    "user",
+    "authentication",
+    "web",
+    "hapi",
+    "bell"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/senecajs/seneca-auth-hapi.git"
+  },
+  "author": "Glen Keane & Kamil Mech",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/senecajs/seneca-auth-hapi/issues"
+  },
+  "homepage": "https://github.com/senecajs/seneca-auth-hapi#readme",
+  "dependencies": {
+    "async": "1.5.0",
+    "lodash": "3.10.1"
+  },
+  "devDependencies": {
+    "when-conditional": "2.0.0",
+    "code": "1.5.0",
+    "lab": "5.18.1",
+    "pre-commit": "1.1.2",
+    "seneca": "0.8.0",
+    "standard": "5.4.1"
+    },
+  "pre-commit": [
+    "test",
+    "lint"
+  ]
+}
